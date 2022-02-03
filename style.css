@@ -28,7 +28,7 @@ a:hover {
   color: red;
 }
 
-button {
+/* button {
   line-height: 30px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -36,6 +36,27 @@ button {
 button:hover {
   color: red;
   background: black;
+} */
+
+button {
+  padding: 15px 25px;
+  /* font-size: 24px; */
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #2304aa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #117e35}
+
+button:active {
+  background-color: #b33f82;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .container {
